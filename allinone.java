@@ -39,12 +39,22 @@ class solution1 extends solution                              // inheritance
     {
               System.out.println(age);
     }
-  @override
+ 
   void getname()
     {
           System.out.println("dineshkumar");
     }
 }
+
+class solution2
+{     
+     @override
+    void getname()
+    {
+              System.out.println("mohanraj");
+    }
+}
+
 
 class allinone
 {
@@ -52,5 +62,8 @@ class allinone
     {
          solution1 obj=new solution1();
          obj.display2();
+
+         solution2 obj1=new solution2(); 
+         obj1.getname();
     }
 }

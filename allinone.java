@@ -14,24 +14,35 @@
     {
         this.display(80,40);                              //thiskey
          System.out.println("abstract class base class");
+          this.getname();  
         
+    }
+  void getname()
+    {
+          System.out.println("mohanraj");
     }
    abstract void display2();                                  // abstract
 }
 
 class solution1 extends solution                              // inheritance
-{    @override
-    void display2()   //override
+{    
+    void display2()   //overloading
     {        
             super.display1();                                 // super key
              
            System.out.println("derived class");
-           this.display2(20);                              // this key
+           this.display2(20); 
+           this.getname();                                   // this key
     }
 
     void display2(int age) //overloding
     {
               System.out.println(age);
+    }
+  @override
+  void getname()
+    {
+          System.out.println("dineshkumar");
     }
 }
 

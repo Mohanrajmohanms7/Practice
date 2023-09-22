@@ -20,8 +20,8 @@
 }
 
 class solution1 extends solution                              // inheritance
-{
-    void display2()
+{    @override
+    void display2()   //override
     {        
             super.display1();                                 // super key
              
@@ -29,7 +29,7 @@ class solution1 extends solution                              // inheritance
            this.display2(20);                              // this key
     }
 
-    void display2(int age)
+    void display2(int age) //overloding
     {
               System.out.println(age);
     }

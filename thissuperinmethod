@@ -1,0 +1,70 @@
+class grandfather
+{
+     String name,city;
+     int age;
+    void getgrandfather()
+     {
+       String name="aarunachalam";
+      String  city="tharamangalam";
+       int age=85;
+        this.displaygrandfather();
+     }
+
+     void displaygrandfather()
+     {  
+        System.out.println("grandfather name="+name);
+        System.out.println("grandfather city="+city);
+        System.out.println("grandfather age="+age);
+        
+     }
+}
+class father extends grandfather
+{
+   void getfather()
+    {
+        super.getgrandfather();
+       String name="murugaraj";
+       String city="tharamangalam";
+       int age=55;
+        this.displayfather();
+    }
+    void displayfather()
+    {
+    
+        System.out.println("father name="+name);
+        System.out.println("father city="+city);
+        System.out.println("father age="+age);
+    }
+}
+class son extends father
+{
+   void getson( )
+    {
+        super.getfather();
+       String name="mohanraj";
+       String city="tharamangalam";
+        int age=20;
+        this.displayson();
+       
+    }
+
+    void displayson()
+    {
+        System.out.println("son name="+name);
+        System.out.println("son city="+city);
+        System.out.println("son age="+age);
+    }
+}
+
+class thissuperinmethod
+{
+    public static void main(String arg[])
+    {
+        son detail= new son();
+        detail.getson();
+        //detail.displayson();
+        //father obj=new father();
+       // obj.getfather();
+        
+    }
+}

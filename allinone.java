@@ -48,7 +48,7 @@ class solution1 extends solution                              // inheritance
 
 class solution2  extends solution1
 {     
-     @override
+     
     void getname()
     {
               System.out.println("mohanraj");

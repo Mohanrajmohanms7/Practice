@@ -1,4 +1,4 @@
-import java.io.*;          // get input form user
+import java.io.*;          // get input from user
 class login1
    {
        DataInputStream con=new DataInputStream(System.in);

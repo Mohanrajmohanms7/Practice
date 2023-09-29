@@ -1,5 +1,5 @@
 import java.io.*;
-
+                                                           // get input form  user and i use assignment operator
 class get
 {    
     int x;
@@ -9,10 +9,10 @@ class get
    get()
    {
     try{
-      System.out.println("enter number a:");
+      System.out.println("enter value of a:");
       x=Integer.valueOf(in.readLine()).intValue();
 
-      System.out.println("enter number :");
+      System.out.println("enter value of b :");
       y=Integer.valueOf(in.readLine()).intValue();
        } 
    catch(Exception s)

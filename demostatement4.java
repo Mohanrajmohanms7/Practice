@@ -8,13 +8,14 @@ class percentage
     {
       System.out.println("Enter your attenance percentage:");
       float per=p.nextFloat();
-       System.out.println("Enter your internal mark:");
-      float internal=p.nextFloat();
+       
       System.out.println("your attenance percentage"+per+"%");
-      System.out.println("Enter your internal mark:"+internal+"internal mark");
+      
       if(per>75)
       {
-
+        System.out.println("Enter your internal mark:");
+      float internal=p.nextFloat();
+      System.out.println("Enter your internal mark:"+internal+"internal mark");
         if(20<internal)
         {
         System.out.println("you are eligiable to sem exam");

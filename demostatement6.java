@@ -9,15 +9,15 @@
        
          
 
-         if(70<mark)
+         if((70<=mark)&&(100>=mark))
          {
             System.out.println("interview second round mark:");
                     mark=i.nextInt(); 
-            if(80<mark)
+            if((80<=mark)&&(100>=mark))
             {       
                 System.out.println("interview third round mark:");
                             mark=i.nextInt();    
-                      if(90<mark)
+                      if((90<=mark)&&(100>=mark))
                        {
                            
                          
